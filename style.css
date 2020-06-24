@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+
+#google-logo{
+    padding-top: 15%;
+}
+
+#search-bar{
+    width: 500px;
+}
+
+.buttons{
+    margin-top: 10px;
+}
