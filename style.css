@@ -1,15 +1,57 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
+
+header{
+    padding-top: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    position: static;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    line-height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    background-color: lightgray;
+}
+
 #google-logo{
-    padding-top: 15%;
+    padding-top: 13%;
 }
 
 #search-bar{
     width: 500px;
+    text-align: left;
+}
+
+.left-header-link{
+    width: 10%;
+    float: left;
+}
+
+.right-header-link{
+    width: 10%;
+    float: right;
 }
 
 .buttons{
     margin-top: 10px;
 }
+
+.left-footer-content{
+    float: left;
+    padding-left: 5px;
+}
+
+.right-footer-content{
+    float: right;
+    padding-right: 5px;
+}
+
